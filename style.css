@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    background: url('https://i.postimg.cc/WpSKrV7s/1111.jpg') bottom no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    color: #ffffff;
+    font-size: 4rem;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 100px 0px 10px;
+}
+
+footer {
+    padding-top: 100px;
+    padding-bottom: 60px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10px;
+    background-color: #000000;
+    background-size: cover;
+}
+
+nav {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 0 25px;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 1rem;
+    text-transform: uppercase;
+    margin-bottom: 0px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+a:visited {
+    color: #ffffff;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.copyright {
+    color: #ffffff;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.article-meta {
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 320px;
+    color: rgb(88, 88, 88);
+}
+
+.wrapper {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+.nissan {
+    width: 768px;
+    margin: 0 auto 32px;
+    padding: 6px 15px;
+    border-bottom: 1px black;
+}
+.news {
+    background-color: #ffffff;
+    padding: 50px 0 32px;
+}
+article h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 5px;
+}
+.post {
+    font-size: 30px;
+}
+article a {
+    text-decoration: none;
+}
